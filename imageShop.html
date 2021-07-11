@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Stetson's Portfolio Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+
+        <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans
+    +Pro:300,900&display=swap" rel="stylesheet">
+
+        <!-- css links for pages -->
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+
+<body>
+    <header>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav_list">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#services">My Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#about">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#work">My Work</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="intro" id="home">
+        <h1 class="section-title section__title-intro"><strong>Image Shop Application</strong></h1>
+        <p class="section-subtitle section__subtitle-intro">Built with react.js</p>
+        <img src="images/ImageShop.PNG" alt="" class="intro-img"/>
+    </section>
+
+    <div class="portfolio-item-individual">
+        <p></p>
+        <img src="" alt=""/>
+        <p>I had a lot of fun building this application. I call it the "Image Shop App" because that's exactly what this application is supposed to represent. This application makes a network request to the unSplash API pulling images upon render. 
+         The user, can browse random images, or make a search for desired images. See an image that you like? Simply add the image to the cart for a purchase later on. Or, favorite image for later use.</p>
+        <p>Upon entering the shopping cart, the user is displayed with the images they added, the total price, and the option to remove an image. If an image is removed, the total price will adjust. 
+            When you're ready to 'purchase', click the place order button. This button acts like a "mock up" order confirmation, clearing out your cart and displaying a notification that your cart is empty, implying your order has been processed.</p>
+            <p>This application is built using reacts functional components. Implementing the use of hooks (useState, useEffect, useRef, useContext) </p>
+        <div class="portfilio git-button-container">
+            <a class="portfilio demo-button" target="_blank" href="https://stetsonharding.github.io/imageShopApp/#/">View Demo</a>
+            <a class="portfilio git-button"  target="_blank" href="https://github.com/stetsonharding/imageShopApp">View Github</a>
+        </div>
+    </div>
+  
+
+    <!-- footer -->
+
+    <!-- footer -->
+    <footer>
+        <a href="mailto:stetsonharding@outlook.com" class="footer-link">stetson2001@msn.com</a>
+        <ul class="social-list">
+            <li class="social-list-item">
+                <a class="social-list-link" href="https://www.linkedin.com/in/stetson-harding-796095171/">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </li>
+            <li class="social-list-item">
+                <a class="social-list-link" href="#">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+
+    <script src="index.js"></script>
+   </body>
+</html>

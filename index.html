@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Stetson's Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+
+        <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans
+    +Pro:300,900&display=swap" rel="stylesheet">
+
+        <!-- css links for pages -->
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+
+<body>
+    <header>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav_list">
+                <li class="nav-item">
+                    <a href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">My Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#work">My Work</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Into -->
+    <section class="intro" id="home">
+        <h1 class="section-title section__title-intro">Hi, I am <strong>Stetson Harding</strong></h1>
+        <p class="section-subtitle section__subtitle-intro">Front-end dev</p>
+        <img src="images/PortfolioImage.png" alt="" class="intro-img"/>
+    </section>
+
+    <!-- Services -->
+    <section class="my-services" id="services">
+        <h2 class="section-title section__title-services">What I do</h2>
+        <div class="services">
+            <div class="service">
+                <h3 class="service-title">Design</h3>
+                <p class="my-service-description">
+                    Design websites and web applications keeping in mind the industry standard design techniques and principles. Always having a customer first approach, making sure products are sleek, fast, user friendly, and fully responsive.
+                </p>
+            </div>
+
+            <div class="service">
+                <h3 class="service-title">Development</h3>
+                <p class="my-service-description">
+                   Taking the design and wireframe, mapping out the development process and using my skills in html, css, sass, javacript, react.js, along with other technologies to create something that I and the team can be proud of, knowing the people viewing our porject will love it just as much.
+                </p>
+            </div>
+
+            <div class="service">
+                <h3 class="service-title">Deployment</h3>
+                <p class="my-service-description">
+                    Testing the site for user experiences again, checking integrations with third party tools to ensure the website is running smooth, making a copy of the final website for backup purposes, making website secure. Deploying projects, keeping in mind load times, users, user functionality, and improvements.
+                </p>
+            </div>
+        </div> <!-- end services-->
+        <a href="#work" class="btn">View my work</a>
+    </section>
+
+    <!-- About Me -->
+    <section class="about-me" id="about">
+        <h2 class="about-me-title">Who i am</h2>
+        <p class="about-me-subtitle">Designer & developer based out of Seattle, Washington</p>
+
+        <div class="about-me-body">
+            <p> Hello! My name is Stetson Harding, I live in Seattle, Washington and have a huge passion for computers, programming, web development, and anything tech in general! This all came about when I started college. 
+                I initially was going for a graphic design major, from there i took my first web development class and fell in LOVE, the learning process, the failing process, the fact that I can come up with something in my head and bring it to life, 
+                through code is amazing! Needless to say I switched majors. In 2019 I graduated from DeVry University with my bachelors in Computer information systems specializing in Web Development.</p>
+            <p> I have industry experience in designing, developing and deploying websites. Taking a customer first approach, my role has had a heavy focus in maintaining website design, 
+                responsiveness, SEO and the user experience. Using Javascript, React, Microsoft Azure and other technologies to ensure our product is deployed, keeping in mind load times by optimizing website performance to further improve the customer experience.</p>
+          
+        </div>
+
+        <img class="about-me-img" src="images/stetson.jpg" alt="" />
+    </section>
+
+
+    <!-- My Work -->
+    <section class="my-work" id="work">
+        <h2 class="section-title my-work-title">My work</h2>
+        <p class="section-subtitle my-work-subtitle">A selection of my range of work</p>
+
+        <div class="portfolio">
+            <!-- portfolio 1 -->
+            <a href="imageShop.html" class="portfolio-item">
+                <img src="images/ImageShop.PNG" alt="Image Shop Application" class="portfolio-img" />
+            </a>
+
+            <!-- portfolio 2 -->
+            <a href="NoteDrop.html" class="portfolio-item">
+                <img src="images/NoteDrop.PNG"  alt="Todo-Drop Application" class="portfolio-img" />
+            </a>
+
+            <!-- portfolio 3 -->
+            <a href="Kushery.html" class="portfolio-item">
+                <img src="images/portfolioKushery.PNG" alt="The Kushery Website" class="portfolio-img" />
+            </a>
+
+            <!-- portfolio 4 -->
+            <!-- <a href="#" class="portfolio-item">
+                <img src="images/portfolio-04.jpg" alt="" class="portfolio-img" />
+            </a> -->
+        </div>
+    </section>
+
+
+    <!-- footer -->
+    <footer>
+        <a href="mailto:stetsonharding@outlook.com" class="footer-link">stetson2001@msn.com</a>
+        <ul class="social-list">
+            <li class="social-list-item">
+                <a class="social-list-link" href="https://www.linkedin.com/in/stetson-harding-796095171/">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </li>
+            <li class="social-list-item">
+                <a class="social-list-link" href="#">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+
+    <script src="index.js"></script>
+   </body>
+</html>
