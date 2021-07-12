@@ -427,6 +427,15 @@ header {
   padding: 1em;
 }
 
+.portfolio-item-individual {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1em;
+  letter-spacing: 1px;
+  line-height: 25px;
+}
+
 .portfolio-img {
   transition: transform 750ms cubic-bezier(0.5, 0, 0.5, 1), opacity 250ms linear;
   height: 225px;
