@@ -127,6 +127,7 @@ h3 {
 .section__title-intro {
   margin-bottom: 0.25em;
   font-weight: var(--fw-reg);
+  font-size: var(--fs-h2);
 }
 
 .section-subtitle {
@@ -268,7 +269,7 @@ header {
 .intro-img {
   box-shadow: var(--bs);
 }
-@media (min-width: 900px) {
+@media (min-width: 650px) {
   .intro {
     display: grid;
     width: min-content;
