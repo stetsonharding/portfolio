@@ -44,10 +44,21 @@
 
     <!-- Into -->
     <section class="intro" id="home">
-        <h1 class="section-title section__title-intro">Hi, I am <strong>Stetson Harding</strong></h1>
-        <p class="section-subtitle section__subtitle-intro">Front-end dev</p>
+        <h1 class="section-title section__title-intro">Hello, I am <strong>Stetson Harding</strong></h1>
+        <p class="section-subtitle section__subtitle-intro">Developer</p>
         <img src="images/PortfolioImage.png" alt="" class="intro-img"/>
     </section>
+    <div class="technology-icons-container">
+        <div class="technology-icons">
+        <img src="images/html-icon.svg"  class="icon" alt="html icon" />
+        <img src="images/css3.svg" class="icon" alt="css icon" />
+        <img src="images/javascript.svg" class="icon" alt="javascript icon" />
+        <img src="images/react.svg" class="icon" alt="react icon" />
+        <img src="images/sass.svg" class="icon" alt="sass icon" />
+        <img src="images/bootstrap.svg" class="icon" alt="bootstrap icon" />
+        <img src="images/git.svg" class="icon" alt="git icon" />
+    </div>
+    </div>
 
     <!-- Services -->
     <section class="my-services" id="services">
@@ -84,7 +95,7 @@
 
         <div class="about-me-body">
             <p> Hello! My name is Stetson Harding, I live in Seattle, Washington and have a huge passion for computers, programming, web development, and anything tech in general! This all came about when I started college. 
-                I initially was going for a graphic design major, from there i took my first web development class and fell in LOVE, the learning process, the failing process, the fact that I can come up with something in my head and bring it to life, 
+                I initially was going for a graphic design major, from there i took my first web development class and fell in LOVE. The fact that I can come up with something in my head and bring it to life, 
                 through code is amazing! Needless to say I switched majors. In 2019 I graduated from DeVry University with my bachelors in Computer information systems specializing in Web Development.</p>
             <p> I have industry experience in designing, developing and deploying websites. Taking a customer first approach, my role has had a heavy focus in maintaining website design, 
                 responsiveness, SEO and the user experience. Using Javascript, React, Microsoft Azure and other technologies to ensure our product is deployed, keeping in mind load times by optimizing website performance to further improve the customer experience.</p>
@@ -97,24 +108,83 @@
 
     <!-- My Work -->
     <section class="my-work" id="work">
-        <h2 class="section-title my-work-title">My work</h2>
-        <p class="section-subtitle my-work-subtitle">A selection of my range of work</p>
+        <h2 class="section-title my-work-title">My Projects</h2>
+        <!-- <p class="section-subtitle my-work-subtitle">A selection of my projects</p> -->
 
-        <div class="portfolio">
+        <div class="portfolio-container">
             <!-- portfolio 1 -->
-            <a href="imageShop.html" class="portfolio-item">
+            <div class="project-container">
+              <div class="project-information-container">
+                <div class="project arrow-icon">
+                    <img src="images/project_arrow.svg" alt="arrow" style="width: 50px;" />
+                </div>
+                <div class="project-description">
+                    <h3 class="project-title">Image Shop</h3>
+                    <p>This application makes a network request to the unsplash api, allowing users to search for
+                        specific images, favorite, add images to cart, and remove images from the cart to display
+                        the total price. Built using react. Implementing the use of hooks (useState, useEffect,
+                        useRef, & useContext) all while being fully mobile responsive</p>
+                    <a class="portfolio-projects demo-btn" target="_blank" href="https://stetsonharding.github.io/imageShopApp/#/">Demo</a>
+                    <a class="portfolio-projects github-btn" target="_blank" href="https://github.com/stetsonharding/imageShopApp">Github</a>
+                </div>
+            </div>
+        </div>
+            <!-- portfolio 2 -->
+        <div class="project-container">
+            <div class="project-information-container">
+              <div class="project arrow-icon">
+                  <img src="images/project_arrow.svg" alt="arrow" style="width: 50px;" />
+              </div>
+              <div class="project-description">
+                  <h3 class="project-title">The Kushery Website</h3>
+                  <p>A website I designed, developed, deployed and currently maintain for a multimillion dollar company
+                       built fully in react, making use of reacts functional components, hooks, session storage, 
+                       bootstrap 4, deployed with Microsoft Azure, making use of standard SEO techniques all while 
+                       being fully responsive to any screen size.</p>
+                  <a class="portfolio-projects demo-btn" target="_blank" href="https://thekushery.rocks/">Demo</a>
+                  <a class="portfolio-projects github-btn" target="_blank" href="https://github.com/stetsonharding/The-Kushery">Github</a>
+              </div>
+          </div>
+      </div>
+
+       <!-- portfolio 3 -->
+       <div class="project-container">
+        <div class="project-information-container">
+          <div class="project arrow-icon">
+              <img src="images/project_arrow.svg" alt="arrow" style="width: 50px;" />
+          </div>
+          <div class="project-description">
+              <h3 class="project-title">Note-Drop</h3>
+              <p>CRUD application to simply create a note, edit a note, and drop your note(s) off the page when finished! Built 
+                  fully with react functional components making use hooks(useState, useRef). Each component is passing props to diffrent components as 
+                  needed. Along side of this, i'm making use of some pretty cool CSS effects and animations 
+                  all while being fully responsive to any screen size.</p>
+              <a class="portfolio-projects demo-btn" target="_blank" href="https://stetsonharding.github.io/todo-drop/">Demo</a>
+              <a class="portfolio-projects github-btn" target="_blank" href="https://github.com/stetsonharding/todo-drop">Github</a>
+          </div>
+      </div>
+  </div>
+    </div>
+      
+                       
+                
+               
+              
+       
+
+            <!-- <a href="imageShop.html" class="portfolio-item">
                 <img src="images/ImageShop.PNG" alt="Image Shop Application" class="portfolio-img" />
-            </a>
+            </a> -->
 
             <!-- portfolio 2 -->
-            <a href="NoteDrop.html" class="portfolio-item">
+            <!-- <a href="NoteDrop.html" class="portfolio-item">
                 <img src="images/NoteDrop.PNG"  alt="Todo-Drop Application" class="portfolio-img" />
-            </a>
+            </a> -->
 
             <!-- portfolio 3 -->
-            <a href="Kushery.html" class="portfolio-item">
+            <!-- <a href="Kushery.html" class="portfolio-item">
                 <img src="images/portfolioKushery.PNG" alt="The Kushery Website" class="portfolio-img" />
-            </a>
+            </a> -->
 
             <!-- portfolio 4 -->
             <!-- <a href="#" class="portfolio-item">
