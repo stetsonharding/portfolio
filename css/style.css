@@ -122,11 +122,11 @@ h3 {
   padding: 0.25em 1em;
 }
 
-.my-work-subtitle {
+/* .my-work-subtitle {
   color: white;
   font-weight: var(--fw-bold);
   margin-bottom: 2em;
-}
+} */
 
 /* header */
 
@@ -293,6 +293,26 @@ header {
   margin: 10px;
 }
 
+@media (max-width: 800px) {
+  .icon {
+    width: 30px;
+    margin: 10px;
+  }
+
+  .technology-icons-container {
+    position: relative;
+    margin-top: 30px;
+  }
+}
+
+/*sizing icons on very small devices */
+@media (max-width: 330px) {
+  .icon {
+    width: 16px;
+    margin: 10px;
+  }
+}
+
 /* My services section */
 
 .my-services {
@@ -377,7 +397,7 @@ header {
     grid-area: subtitle;
     position: relative;
     left: -1em;
-    width: calc(100% + 3.5em);
+    width: calc(100% + 1.7em);
     padding-left: 1em;
     padding-right: calc(200px + 5.5em);
     grid-column: 1 / -1;
@@ -408,6 +428,7 @@ header {
 }
 
 /* projects */
+
 .project-container {
   display: flex;
   margin: 0 auto;
@@ -466,6 +487,27 @@ header {
   border-radius: 3px;
 }
 
+@media (max-width: 780px) {
+  section {
+    padding: 3em 0.8em;
+  }
+
+  .project-information-container {
+    display: flex;
+    flex-direction: column;
+    padding-right: 0;
+  }
+
+  .arrow-icon {
+    display: flex;
+    padding-left: 50px;
+
+    margin: 0 auto;
+    transform: rotate(90deg);
+    padding-top: 10px;
+  }
+}
+
 /* footer */
 
 footer {
@@ -508,24 +550,3 @@ footer {
   color: var(--color-accent);
   padding: 0.5em;
 }
-/* .project-container {
-  display: flex;
-  margin: 0 auto;
-}
-
-.project-description {
-  width: 100%;
-  max-width: 800px;
-}
-
-.arrow-icon {
-  display: flex;
-  align-items: center;
-  padding: 30px;
-}
-
-.project-information-container {
-  display: flex;
-  margin: 0 auto;
-  padding-right: 100px;
-} */

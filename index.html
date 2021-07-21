@@ -1,219 +1,222 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Stetson's Portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Stetson's Portfolio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
-        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+            integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
 
         <!-- google fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans
     +Pro:300,900&display=swap" rel="stylesheet">
 
         <!-- css links for pages -->
-    <link rel="stylesheet" href="css/style.css"/>
-</head>
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
 
-<body>
-    <header>
-        <button class="nav-toggle" aria-label="toggle navigation">
-            <span class="hamburger"></span>
-        </button>
-        <nav class="nav">
-            <ul class="nav_list">
-                <li class="nav-item">
-                    <a href="#home">Home</a>
+    <body>
+        <header>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav_list">
+                    <li class="nav-item">
+                        <a href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">My Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#work">My Work</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Into -->
+        <section class="intro" id="home">
+            <h1 class="section-title section__title-intro">Hello, I am <strong>Stetson Harding</strong></h1>
+            <p class="section-subtitle section__subtitle-intro">Developer</p>
+            <img src="images/PortfolioImage.png" alt="" class="intro-img" />
+        </section>
+        <div class="technology-icons-container">
+            <div class="technology-icons">
+                <img src="images/html-icon.svg" class="icon" alt="html icon" />
+                <img src="images/css3.svg" class="icon" alt="css icon" />
+                <img src="images/javascript.svg" class="icon" alt="javascript icon" />
+                <img src="images/react.svg" class="icon" alt="react icon" />
+                <img src="images/redux.svg" class="icon" alt="redux icon" />
+                <img src="images/sass.svg" class="icon" alt="sass icon" />
+                <img src="images/bootstrap.svg" class="icon" alt="bootstrap icon" />
+                <img src="images/git.svg" class="icon" alt="git icon" />
+            </div>
+        </div>
+
+        <!-- Services -->
+        <section class="my-services" id="services">
+            <h2 class="section-title section__title-services">What I do</h2>
+            <div class="services">
+                <div class="service">
+                    <h3 class="service-title">Design</h3>
+                    <p class="my-service-description">
+                        Design websites and web applications keeping in mind the industry standard design techniques and
+                        principles. Always having a customer first approach, making sure products are sleek, fast, user
+                        friendly, and fully responsive.
+                    </p>
+                </div>
+
+                <div class="service">
+                    <h3 class="service-title">Development</h3>
+                    <p class="my-service-description">
+                        Taking the design and wireframe, mapping out the development process and using my skills in
+                        html, css, sass, javacript, react.js, along with other technologies to create something that I
+                        and the team can be proud of, knowing the customers viewing our project will love it just as
+                        much.
+                    </p>
+                </div>
+
+                <div class="service">
+                    <h3 class="service-title">Deployment</h3>
+                    <p class="my-service-description">
+                        Testing the site for user experiences again, checking integrations with third party tools to
+                        ensure the website is running smooth, making a copy of the final website for backup purposes,
+                        making website secure. Deploying projects, keeping in mind load times, users, user
+                        functionality, and improvements.
+                    </p>
+                </div>
+            </div> <!-- end services-->
+            <a href="#work" class="btn">View my work</a>
+        </section>
+
+        <!-- About Me -->
+        <section class="about-me" id="about">
+            <h2 class="about-me-title">Who i am</h2>
+            <p class="about-me-subtitle">Designer & developer based out of Seattle, Washington</p>
+
+            <div class="about-me-body">
+                <p> Hello! My name is Stetson Harding, I live in Seattle, Washington and have a huge passion for
+                    computers, programming, web development, and anything tech in general!I graduated from DeVry
+                    University with my bachelors in Computer information systems specializing in Web Development
+                    Administration.</p>
+                <p> I have experience in designing, developing and deploying websites. Taking a customer first approach,
+                    my role has had a heavy focus in maintaining website design,
+                    responsiveness, SEO and the user experience. Using Javascript, React, Microsoft Azure and other
+                    technologies to ensure our product is deployed, keeping in mind load times by optimizing website
+                    performance to further improve the customer experience.</p>
+
+            </div>
+
+            <img class="about-me-img" src="images/Stetson.jpg" alt="Stetson in California" />
+        </section>
+
+
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section-title my-work-title">My Projects</h2>
+            <!-- <p class="section-subtitle my-work-subtitle">A selection of my projects</p> -->
+
+            <div class="portfolio-container">
+                <!-- portfolio 1 -->
+                <div class="project-container">
+                    <div class="project-information-container">
+                        <div class="project arrow-icon">
+                            <img src="images/project_arrow.svg" alt="arrow" style="width: 50px;" />
+                        </div>
+                        <div class="project-description">
+                            <h3 class="project-title">Image Shop</h3>
+                            <p>This application makes a network request to the unsplash api, allowing users to search
+                                for
+                                specific images, favorite, add images to cart, and remove images from the cart to
+                                display
+                                the total price. Built using react. Implementing the use of hooks (useState, useEffect,
+                                useRef, & useContext) all while being fully mobile responsive</p>
+                            <a class="portfolio-projects demo-btn" target="_blank"
+                                href="https://stetsonharding.github.io/imageShopApp/#/">Demo</a>
+                            <a class="portfolio-projects github-btn" target="_blank"
+                                href="https://github.com/stetsonharding/imageShopApp">Github</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- portfolio 2 -->
+                <div class="project-container">
+                    <div class="project-information-container">
+                        <div class="project arrow-icon">
+                            <img src="images/project_arrow.svg" alt="arrow" style="width: 50px;" />
+                        </div>
+                        <div class="project-description">
+                            <h3 class="project-title">The Kushery Website</h3>
+                            <p>A website I designed, developed, deployed and currently maintain for a multimillion
+                                dollar company
+                                built fully in react, making use of reacts functional components, hooks, session
+                                storage,
+                                bootstrap 4, deployed with Microsoft Azure, making use of standard SEO techniques all
+                                while
+                                being fully responsive to any screen size.</p>
+                            <a class="portfolio-projects demo-btn" target="_blank"
+                                href="https://thekushery.rocks/">Demo</a>
+                            <a class="portfolio-projects github-btn" target="_blank"
+                                href="https://github.com/stetsonharding/The-Kushery">Github</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- portfolio 3 -->
+                <div class="project-container">
+                    <div class="project-information-container">
+                        <div class="project arrow-icon">
+                            <img src="images/project_arrow.svg" alt="arrow" style="width: 50px;" />
+                        </div>
+                        <div class="project-description">
+                            <h3 class="project-title">Note-Drop</h3>
+                            <p>CRUD application to simply create a note, edit a note, and drop your note(s) off the page
+                                when finished! Built
+                                fully with react functional components making use hooks(useState, useRef). Each
+                                component is passing props to diffrent components as
+                                needed. Along side of this, i'm making use of some pretty cool CSS effects and
+                                animations
+                                all while being fully responsive to any screen size.</p>
+                            <a class="portfolio-projects demo-btn" target="_blank"
+                                href="https://stetsonharding.github.io/todo-drop/">Demo</a>
+                            <a class="portfolio-projects github-btn" target="_blank"
+                                href="https://github.com/stetsonharding/todo-drop">Github</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+
+
+        <!-- footer -->
+        <footer>
+            <a href="mailto:stetsonharding@outlook.com" class="footer-link">stetson2001@msn.com</a>
+            <ul class="social-list">
+                <li class="social-list-item">
+                    <a class="social-list-link" href="https://www.linkedin.com/in/stetson-harding-796095171/">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#services">My Services</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#about">About Me</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#work">My Work</a>
+                <li class="social-list-item">
+                    <a class="social-list-link" href="https://github.com/stetsonharding?tab=repositories">
+                        <i class="fab fa-github"></i>
+                    </a>
                 </li>
             </ul>
-        </nav>
-    </header>
-
-    <!-- Into -->
-    <section class="intro" id="home">
-        <h1 class="section-title section__title-intro">Hello, I am <strong>Stetson Harding</strong></h1>
-        <p class="section-subtitle section__subtitle-intro">Developer</p>
-        <img src="images/PortfolioImage.png" alt="" class="intro-img"/>
-    </section>
-    <div class="technology-icons-container">
-        <div class="technology-icons">
-        <img src="images/html-icon.svg"  class="icon" alt="html icon" />
-        <img src="images/css3.svg" class="icon" alt="css icon" />
-        <img src="images/javascript.svg" class="icon" alt="javascript icon" />
-        <img src="images/react.svg" class="icon" alt="react icon" />
-        <img src="images/sass.svg" class="icon" alt="sass icon" />
-        <img src="images/bootstrap.svg" class="icon" alt="bootstrap icon" />
-        <img src="images/git.svg" class="icon" alt="git icon" />
-    </div>
-    </div>
-
-    <!-- Services -->
-    <section class="my-services" id="services">
-        <h2 class="section-title section__title-services">What I do</h2>
-        <div class="services">
-            <div class="service">
-                <h3 class="service-title">Design</h3>
-                <p class="my-service-description">
-                    Design websites and web applications keeping in mind the industry standard design techniques and principles. Always having a customer first approach, making sure products are sleek, fast, user friendly, and fully responsive.
-                </p>
+            <div class="icon-contributor">
+                <p>All icons credited too: <a href="https://iconscout.com/contributors/jagathish"
+                        target="_blank">Jagathish Saravanan</a></p>
             </div>
-
-            <div class="service">
-                <h3 class="service-title">Development</h3>
-                <p class="my-service-description">
-                   Taking the design and wireframe, mapping out the development process and using my skills in html, css, sass, javacript, react.js, along with other technologies to create something that I and the team can be proud of, knowing the customers viewing our project will love it just as much.
-                </p>
-            </div>
-
-            <div class="service">
-                <h3 class="service-title">Deployment</h3>
-                <p class="my-service-description">
-                    Testing the site for user experiences again, checking integrations with third party tools to ensure the website is running smooth, making a copy of the final website for backup purposes, making website secure. Deploying projects, keeping in mind load times, users, user functionality, and improvements.
-                </p>
-            </div>
-        </div> <!-- end services-->
-        <a href="#work" class="btn">View my work</a>
-    </section>
-
-    <!-- About Me -->
-    <section class="about-me" id="about">
-        <h2 class="about-me-title">Who i am</h2>
-        <p class="about-me-subtitle">Designer & developer based out of Seattle, Washington</p>
-
-        <div class="about-me-body">
-            <p> Hello! My name is Stetson Harding, I live in Seattle, Washington and have a huge passion for computers, programming, web development, and anything tech in general! This all came about when I started college. 
-                I initially was going for a graphic design major, from there i took my first web development class and fell in LOVE. The fact that I can come up with something in my head and bring it to life, 
-                through code is amazing! Needless to say I switched majors. In 2019 I graduated from DeVry University with my bachelors in Computer information systems specializing in Web Development.</p>
-            <p> I have industry experience in designing, developing and deploying websites. Taking a customer first approach, my role has had a heavy focus in maintaining website design, 
-                responsiveness, SEO and the user experience. Using Javascript, React, Microsoft Azure and other technologies to ensure our product is deployed, keeping in mind load times by optimizing website performance to further improve the customer experience.</p>
-          
-        </div>
-
-        <img class="about-me-img" src="images/Stetson.jpg" alt="Stetson in California" />
-    </section>
-
-
-    <!-- My Work -->
-    <section class="my-work" id="work">
-        <h2 class="section-title my-work-title">My Projects</h2>
-        <!-- <p class="section-subtitle my-work-subtitle">A selection of my projects</p> -->
-
-        <div class="portfolio-container">
-            <!-- portfolio 1 -->
-            <div class="project-container">
-              <div class="project-information-container">
-                <div class="project arrow-icon">
-                    <img src="images/project_arrow.svg" alt="arrow" style="width: 50px;" />
-                </div>
-                <div class="project-description">
-                    <h3 class="project-title">Image Shop</h3>
-                    <p>This application makes a network request to the unsplash api, allowing users to search for
-                        specific images, favorite, add images to cart, and remove images from the cart to display
-                        the total price. Built using react. Implementing the use of hooks (useState, useEffect,
-                        useRef, & useContext) all while being fully mobile responsive</p>
-                    <a class="portfolio-projects demo-btn" target="_blank" href="https://stetsonharding.github.io/imageShopApp/#/">Demo</a>
-                    <a class="portfolio-projects github-btn" target="_blank" href="https://github.com/stetsonharding/imageShopApp">Github</a>
-                </div>
-            </div>
-        </div>
-            <!-- portfolio 2 -->
-        <div class="project-container">
-            <div class="project-information-container">
-              <div class="project arrow-icon">
-                  <img src="images/project_arrow.svg" alt="arrow" style="width: 50px;" />
-              </div>
-              <div class="project-description">
-                  <h3 class="project-title">The Kushery Website</h3>
-                  <p>A website I designed, developed, deployed and currently maintain for a multimillion dollar company
-                       built fully in react, making use of reacts functional components, hooks, session storage, 
-                       bootstrap 4, deployed with Microsoft Azure, making use of standard SEO techniques all while 
-                       being fully responsive to any screen size.</p>
-                  <a class="portfolio-projects demo-btn" target="_blank" href="https://thekushery.rocks/">Demo</a>
-                  <a class="portfolio-projects github-btn" target="_blank" href="https://github.com/stetsonharding/The-Kushery">Github</a>
-              </div>
-          </div>
-      </div>
-
-       <!-- portfolio 3 -->
-       <div class="project-container">
-        <div class="project-information-container">
-          <div class="project arrow-icon">
-              <img src="images/project_arrow.svg" alt="arrow" style="width: 50px;" />
-          </div>
-          <div class="project-description">
-              <h3 class="project-title">Note-Drop</h3>
-              <p>CRUD application to simply create a note, edit a note, and drop your note(s) off the page when finished! Built 
-                  fully with react functional components making use hooks(useState, useRef). Each component is passing props to diffrent components as 
-                  needed. Along side of this, i'm making use of some pretty cool CSS effects and animations 
-                  all while being fully responsive to any screen size.</p>
-              <a class="portfolio-projects demo-btn" target="_blank" href="https://stetsonharding.github.io/todo-drop/">Demo</a>
-              <a class="portfolio-projects github-btn" target="_blank" href="https://github.com/stetsonharding/todo-drop">Github</a>
-          </div>
-      </div>
-  </div>
-    </div>
-      
-                       
-                
-               
-              
-       
-
-            <!-- <a href="imageShop.html" class="portfolio-item">
-                <img src="images/ImageShop.PNG" alt="Image Shop Application" class="portfolio-img" />
-            </a> -->
-
-            <!-- portfolio 2 -->
-            <!-- <a href="NoteDrop.html" class="portfolio-item">
-                <img src="images/NoteDrop.PNG"  alt="Todo-Drop Application" class="portfolio-img" />
-            </a> -->
-
-            <!-- portfolio 3 -->
-            <!-- <a href="Kushery.html" class="portfolio-item">
-                <img src="images/portfolioKushery.PNG" alt="The Kushery Website" class="portfolio-img" />
-            </a> -->
-
-            <!-- portfolio 4 -->
-            <!-- <a href="#" class="portfolio-item">
-                <img src="images/portfolio-04.jpg" alt="" class="portfolio-img" />
-            </a> -->
-        </div>
-    </section>
-
-
-    <!-- footer -->
-  <!-- footer -->
-  <footer>
-    <a href="mailto:stetsonharding@outlook.com" class="footer-link">stetson2001@msn.com</a>
-    <ul class="social-list">
-        <li class="social-list-item">
-            <a class="social-list-link" href="https://www.linkedin.com/in/stetson-harding-796095171/">
-                <i class="fab fa-linkedin-in"></i>
-            </a>
-        </li>
-        <li class="social-list-item">
-            <a class="social-list-link" href="https://github.com/stetsonharding?tab=repositories">
-                <i class="fab fa-github"></i>
-            </a>
-        </li>
-    </ul>
-</footer>
-
-
-
-    <script src="index.js"></script>
-   </body>
+        </footer>
+        <script src="index.js"></script>
+    </body>
 </html>
