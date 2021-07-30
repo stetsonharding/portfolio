@@ -312,7 +312,7 @@ header {
 
 .my-services {
   background-color: var(--color-dark);
-  background-image: url(/images/background_portfolio.jpg);
+  background-image: url(../images/TheProcess.jpg);
   background-blend-mode: multiply;
   color: var(--color-light);
   text-align: center;
